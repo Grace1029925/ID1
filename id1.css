@@ -5,12 +5,18 @@ body{
 
 section#header{
     position: absolute;
-    top: 200px;
-    margin-left: 10%;
-    font-size: 1.5em;
+    top: 230px;
+    margin-left: 5%;
+    font-size: 1.7em;
     color: whitesmoke;
     letter-spacing: 1.3px;
     
+}
+
+section{
+    width: 40%;
+    padding: 3%;
+    display: inline-table;
 }
 img{
     width: 100%;
