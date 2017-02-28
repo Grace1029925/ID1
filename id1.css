@@ -1,15 +1,24 @@
+/* DESKTOP LAYOUT*/
+
 body{
     width: 100%;
-    
+    background-color: gainsboro;
+
 }
 
 section#header{
     position: absolute;
-    top: 230px;
+    top: 210px;
     margin-left: 5%;
     font-size: 1.7em;
     color: whitesmoke;
     letter-spacing: 1.3px;
+
+}
+
+ol{
+    list-style-type: square;
+    color: black;
     
 }
 
@@ -18,8 +27,99 @@ section{
     padding: 3%;
     display: inline-table;
 }
+
+section#about{
+    display: none;
+
+
+}
+
+section#aboutbutton{
+    width: 10%;
+    position: relative;
+    float: right;
+    top: 20px;
+    left: 20px;
+    background-color: purple;
+    color: white;
+    padding: 3px 3px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+section#aboutbutton:hover + section#about {
+    display: block;
+
+}
+
 img{
     width: 100%;
     height: auto;
-   
+
+}
+
+img#photo{
+    width: 50%;
+
+}
+
+footer{
+    clear: left;
+    width: 75%;   
+    margin-bottom: 2%;
+    margin-left: 15%;
+    padding-top: 1%;
+    border-top: 1px dashed grey;
+
+}
+footer h4 {
+    float: left;
+}
+footer p {
+    float:right;
+}
+
+/* link styling */
+a, a:visited {
+    color: purple;
+    font-weight:600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;  
+}
+
+footer a, footer a:visited {
+    background-color: purple;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+}
+
+/* MOBILE LAYOUT */
+
+@media only screen and (max-width:500px) {
+    body{
+        width: 80%;
+        padding: 2% 2%;
+
+    }
+
+    img{
+        width: 80%;
+    }
 }
