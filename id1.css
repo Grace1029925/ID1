@@ -10,62 +10,75 @@ section#header{
     position: absolute;
     top: 210px;
     margin-left: 5%;
-    font-size: 1.7em;
+    font-size: 150%;
     color: whitesmoke;
     letter-spacing: 1.3px;
 
 }
 
 ol{
+    font-size: 1.4em;
     list-style-type: square;
     color: black;
-    
+
 }
 
 section{
     width: 40%;
     padding: 3%;
+    margin-top: -4%;
     display: inline-table;
 }
 
-section#about{
-    display: none;
-
-
-}
-
 section#aboutbutton{
-    width: 10%;
-    position: relative;
     float: right;
-    top: 20px;
-    left: 20px;
-    background-color: purple;
-    color: white;
-    padding: 3px 3px;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration: none;
+    margin: 0%;
+    padding: 0;
+
 
 }
-
-section#aboutbutton:hover + section#about {
-    display: block;
-
-}
-
 img{
     width: 100%;
     height: auto;
+    border-radius: 10px;
 
 }
 
 img#photo{
-    width: 50%;
+    width: 550px;
+    border-radius:10px
 
 }
 
-footer{
+img#gif{
+    width: 350px;
+    padding-top: 0px; 0px;
+    margin: 1.5% 0% 5%;
+    border-radius:10px;
+    
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+    
+
+}
+
+h4{
+    padding: 0%;
+    font-family: 'Merriweather', serif;
+    font-size: 1.8em; 
+}
+
+h5{
+    margin-top: 0%;
+    margin-bottom: 6%;
+    padding-bottom: 0%;
+    font-family: 'Merriweather', serif;
+    font-size: 1.6em;
+}
+footer {
     clear: left;
     width: 75%;   
     margin-bottom: 2%;
@@ -86,6 +99,20 @@ a, a:visited {
     color: purple;
     font-weight:600;
     text-decoration: none;
+}
+
+section#aboutbutton a{
+    position: relative;
+    margin-top: -5%;
+    width: 30%;
+    float: right;
+    background-color: purple;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+
 }
 
 a:hover {
@@ -113,13 +140,16 @@ footer a:hover {
 /* MOBILE LAYOUT */
 
 @media only screen and (max-width:500px) {
-    body{
+body{
         width: 80%;
         padding: 2% 2%;
 
     }
-
+    
+    p{
+        font-size: 1.6em;
+    }
     img{
-        width: 80%;
+        width: 90%;
     }
 }
