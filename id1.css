@@ -60,9 +60,12 @@ img#gif{
 
 p{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.5em;
-    
+    font-size: 1.5em; 
 
+}
+
+p#pin{
+  width: 75%; 
 }
 
 h4{
