@@ -1,0 +1,126 @@
+/* DESKTOP LAYOUT*/
+
+body{
+    width: 100%;
+    background-color: whitesmoke;
+
+}
+
+p{
+    padding-top: 0%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 40;
+}
+
+blockquote{
+    margin-left: 15%;
+    margin-right: 5em;
+    margin-top: 3%;
+    margin-bottom: 1.5em;
+    width: 90%;
+    padding: 7% 4%;
+    border: 5px double black;
+    border-radius:2px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 2.5em;
+    color: black;
+    letter-spacing: .02em;
+    line-height: 1.4em; 
+        
+}
+
+}
+section{
+    width: 40%;
+    padding: 3%;
+    margin-top: -4%;
+}
+
+section#header{
+    padding-top: 0%;
+    padding-left: 37%;
+    padding-right: 37%;
+    width: 40;
+}
+
+section#table{
+    width: 40%;
+    padding-top: 4%;
+    padding-left: 8%;
+    margin-top: -4%;
+    display: inline-table;
+    
+}
+
+section#quote{
+    width: 190%;
+    padding: 3% 4%;
+    margin-left: 10%;
+    margin-top: -4%;
+
+}
+img#head{
+    width: 100%;
+    height: inherit;
+    border-radius: 9px;
+    
+}
+footer {
+    clear: left;
+    width: 75%;   
+    margin-bottom: 2%;
+    margin-left: 15%;
+    padding-top: 1%;
+    border-top: 1px dashed grey;
+
+}
+footer h4 {
+    float: left;
+}
+footer p {
+    float:right;
+}
+
+/* link styling */
+a, a:visited {
+    color: purple;
+    font-weight:600;
+    text-decoration: none;
+}
+
+section#aboutbutton a{
+    position: relative;
+    margin-top: -5%;
+    width: 30%;
+    float: right;
+    background-color: purple;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: black;  
+}
+
+footer a, footer a:visited {
+    background-color: purple;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
