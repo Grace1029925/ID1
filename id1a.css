@@ -180,15 +180,16 @@ footer a:hover {
     }
     
     img#gif{
-    width: 90%;
+    width: 100%;
     margin-right: 5%;
     margin-left: 5%;
     border-radius: 10px;
 }
+    
     section#aboutbutton a{
     position: absolute;
     right: 10%;
-    bottom: 5%;
+    bottom: 10%;
     width: 10%;
     background-color: purple;
     color: white;
@@ -197,4 +198,21 @@ footer a:hover {
     text-align: center;
     text-decoration: none;
 
+}
+    footer {
+    clear: left;
+    width: 75%;   
+    margin-bottom: 2%;
+    margin-left: 15%;
+    padding-top: 1%;
+    border-top: 1px dashed grey;
+
+}
+    
+footer h4 {
+    float: left;
+}
+    
+footer p {
+    float:right;
 }
