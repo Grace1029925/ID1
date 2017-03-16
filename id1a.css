@@ -2,24 +2,22 @@
 
 body{
     width: 100%;
-    background-color: whitesmoke;
+    background-color: floralwhite;
 
 }
 
 p{
-    padding-top: 0%;
-    padding-left: 15%;
-    padding-right: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
     width: 40;
 }
 
 blockquote{
-    margin-left: 15%;
-    margin-right: 5em;
-    margin-top: 3%;
-    margin-bottom: 1.5em;
-    width: 90%;
-    padding: 7% 4%;
+    clear:both;
+    width: 40%;
+    margin-left: 25%;
+    margin-right: 30%;
+    padding: 5% 4%;
     border: 5px double black;
     border-radius:2px;
     text-align: center;
@@ -31,7 +29,6 @@ blockquote{
         
 }
 
-}
 section{
     width: 40%;
     padding: 3%;
@@ -39,34 +36,37 @@ section{
 }
 
 section#header{
-    padding-top: 0%;
-    padding-left: 37%;
-    padding-right: 37%;
-    width: 40;
+    width: 35%;
+    padding-right: 0%;
+    margin-left: 12%;
+    margin-right: 12%;
+  
 }
 
-section#table{
+section#atable{
     width: 40%;
-    padding-top: 4%;
-    padding-left: 8%;
-    margin-top: -4%;
-    display: inline-table;
+    margin-left: 12%;
+    margin-right: 12%;
+    float: left;
+    
+}
+section#btable{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline;
     
 }
 
-section#quote{
-    width: 190%;
-    padding: 3% 4%;
-    margin-left: 10%;
-    margin-top: -4%;
-
-}
 img#head{
-    width: 100%;
-    height: inherit;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
     border-radius: 9px;
     
 }
+
 footer {
     clear: left;
     width: 75%;   
@@ -83,6 +83,9 @@ footer p {
     float:right;
 }
 
+ol{
+    list-style: disc;
+}
 /* link styling */
 a, a:visited {
     color: purple;
@@ -92,7 +95,8 @@ a, a:visited {
 
 section#aboutbutton a{
     position: relative;
-    margin-top: -5%;
+    margin-top: -7%;
+    margin-right: -208%;
     width: 30%;
     float: right;
     background-color: purple;
