@@ -2,7 +2,7 @@
 
 body{
     width: 100%;
-    background-color: floralwhite;
+    background-color: #F5F0ED ;
 
 }
 
@@ -10,8 +10,14 @@ p{
     margin-left: 15%;
     margin-right: 15%;
     width: 40;
+    font-size: 1.4em;
 }
 
+#aboutp{
+    width: 190%;
+    margin-top: -3%;
+
+}
 blockquote{
     clear:both;
     width: 40%;
@@ -26,9 +32,19 @@ blockquote{
     color: black;
     letter-spacing: .02em;
     line-height: 1.4em; 
-        
+      /*Box Shadow - (Optional)*/
+    box-shadow: 4px 4px 25px #ccc;
+    box-shadow: 4px 4px 25px #ccc;
+    box-shadow: 4px 4px 25px #ccc;
+
 }
 
+#path{
+    font-size: 1.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
 section{
     width: 40%;
     padding: 3%;
@@ -38,9 +54,11 @@ section{
 section#header{
     width: 35%;
     padding-right: 0%;
+    padding-bottom: 0%;
+    padding-top: 2%;
     margin-left: 12%;
     margin-right: 12%;
-  
+
 }
 
 section#atable{
@@ -48,23 +66,29 @@ section#atable{
     margin-left: 12%;
     margin-right: 12%;
     float: left;
-    
+
 }
 section#btable{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     display: inline;
-    
+
 }
 
 img#head{
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     justify-content: center;
     border-radius: 9px;
-    
+
+}
+img#gif{
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    border-radius: 10px;
 }
 
 footer {
@@ -85,7 +109,9 @@ footer p {
 
 ol{
     list-style: disc;
+    font-size: 1.1em;
 }
+
 /* link styling */
 a, a:visited {
     color: purple;
@@ -96,12 +122,12 @@ a, a:visited {
 section#aboutbutton a{
     position: relative;
     margin-top: -7%;
-    margin-right: -208%;
-    width: 30%;
+    margin-right: -190%;
+    width: 40%;
     float: right;
     background-color: purple;
     color: white;
-    padding: 20px 20px;
+    padding: 10px 10px;
     border-radius: 30px;
     text-align: center;
     text-decoration: none;
@@ -127,4 +153,19 @@ footer a:hover {
     color: white;
     text-decoration: none;
 }
+/* MOBILE LAYOUT */
 
+@media only screen and (max-width:500px) {
+    body{
+        width: 80%;
+        padding: 2% 2%;
+
+    }
+
+    p{
+        font-size: 1.6em;
+    }
+    img{
+        width: 90%;
+    }
+}
