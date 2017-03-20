@@ -15,6 +15,7 @@ p{
     margin-left: 15%;
     margin-right: 15%;
     width: 30;
+    font-family: 'PT Serif', serif;
     font-size: 1.2em;
 }
 
@@ -23,6 +24,7 @@ p{
     margin-top: 1%;
     margin-left: 15%;
     margin-right: 15%;
+    font-family: 'PT Serif', serif;
 
 }
 blockquote{
@@ -66,6 +68,7 @@ section#header{
     padding-top: 2%;
     margin-left: 12%;
     margin-right: 12%;
+   
 
 }
 
@@ -133,7 +136,7 @@ a, a:visited {
 section#aboutbutton a{
     position: absolute;
     right: 10%;
-    bottom: 6%;
+    bottom: 5%;
     width: 9%;
     background-color: purple;
     color: white;
