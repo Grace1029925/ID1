@@ -28,9 +28,9 @@ p{
 blockquote{
     clear:both;
     width: 30%;
-    margin-left: 30%;
+    margin-left: 35%;
     margin-right: 50%;
-    padding: 4% 3%;
+    padding: 3% 2%;
     border: 4px double black;
     border-radius:2px;
     text-align: center;
@@ -81,7 +81,6 @@ section#btable{
     margin-left: 5%;
     margin-right: 5%;
     display: inline;
-
 }
 
 img#head{
