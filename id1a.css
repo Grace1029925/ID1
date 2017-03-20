@@ -68,7 +68,7 @@ section#header{
     padding-top: 2%;
     margin-left: 12%;
     margin-right: 12%;
-   
+
 
 }
 
@@ -183,13 +183,13 @@ footer a:hover {
     p{
         font-size: 1.3em;
     }
-    
-    #path{
-    font-size: 1.4em;
-    margin-left: 15%;
-    margin-right: 15%;
 
-}
+    #path{
+        font-size: 1.5em;
+        margin-left: 15%;
+        margin-right: 15%;
+
+    }
 
     img{
         width: 100%;
