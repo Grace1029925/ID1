@@ -15,25 +15,27 @@ p{
     margin-left: 15%;
     margin-right: 15%;
     width: 40;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 #aboutp{
     width: 100%;
     margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
 
 }
 blockquote{
     clear:both;
-    width: 40%;
-    margin-left: 25%;
-    margin-right: 30%;
-    padding: 5% 4%;
-    border: 5px double black;
+    width: 30%;
+    margin-left: 30%;
+    margin-right: 50%;
+    padding: 4% 3%;
+    border: 4px double black;
     border-radius:2px;
     text-align: center;
     font-family: 'Satisfy', cursive;
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: black;
     letter-spacing: .02em;
     line-height: 1.4em; 
@@ -45,7 +47,7 @@ blockquote{
 }
 
 #path{
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-left: 15%;
     margin-right: 15%;
 
@@ -89,6 +91,7 @@ img#head{
     border-radius: 9px;
 
 }
+
 img#gif{
     width: 30%;
     margin-right: 15%;
@@ -96,6 +99,9 @@ img#gif{
     border-radius: 10px;
 }
 
+#footers{
+    font-size: 1.2em;
+}
 footer {
     clear: left;
     width: 75%;   
@@ -131,8 +137,8 @@ section#aboutbutton a{
     width: 10%;
     background-color: purple;
     color: white;
-    padding: 9px 5px;
-    border-radius: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
     text-align: center;
     text-decoration: none;
 
@@ -186,28 +192,6 @@ footer a:hover {
         border-radius: 10px;
     }
 
-    section#aboutbutton a{
-        position: absolute;
-        right: 10%;
-        bottom: 10%;
-        width: 10%;
-        background-color: purple;
-        color: white;
-        padding: 9px 5px;
-        border-radius: 20px;
-        text-align: center;
-        text-decoration: none;
-
-    }
-    footer {
-        clear: left;
-        width: 75%;   
-        margin-bottom: 2%;
-        margin-left: 15%;
-        padding-top: 1%;
-        border-top: 1px dashed grey;
-
-    }
 
     footer h4 {
         float: left;
