@@ -52,6 +52,7 @@ blockquote{
     margin-right: 15%;
 
 }
+
 section{
     width: 70%;
     padding: 3%;
@@ -178,8 +179,15 @@ footer a:hover {
     }
 
     p{
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
+    
+    #path{
+    font-size: 1.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
 
     img{
         width: 100%;
@@ -191,7 +199,6 @@ footer a:hover {
         margin-left: 5%;
         border-radius: 10px;
     }
-
 
     footer h4 {
         float: left;
