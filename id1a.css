@@ -12,7 +12,6 @@ header{
 p{
     margin-left: 15%;
     margin-right: 15%;
-    width: 30;
     font-family: 'PT Serif', serif;
     font-size: 1.2em;
 }
@@ -67,18 +66,17 @@ section#header{
 }
 
 section#atable{
-    width: 40%;
+    width: 25%;
     margin-left: 12%;
-    margin-right: 10%;
+    margin-right: 5%;
     float: left;
 }
 
 section#btable{
     width: 28%;
-    margin-top: -5%;
     margin-left: 5%;
     margin-right: 5%;
-    display: inline;
+    display: inline-table;
 }
 
 img#head{
@@ -131,12 +129,12 @@ a, a:visited {
 
 section#aboutbutton a{
     position: absolute;
-    right: 10%;
-    bottom: 5%;
-    width: 9%;
+    right: 17%;
+    bottom: 4%;
+    width: 5%;
     background-color: purple;
     color: white;
-    padding: 9px 15px;
+    padding: 10px 15px;
     border-radius: 10px;
     text-align: center;
     text-decoration: none;
@@ -144,7 +142,21 @@ section#aboutbutton a{
 
 section#aboutbutton a:nth-child(2) {
     position: absolute;
-    right: 20%;
+    right: 10%;
+}
+
+loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 a:hover {
@@ -180,15 +192,35 @@ footer a:hover {
     }
 
     p{
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     #path{
-        font-size: 1.5em;
+        font-size: 1.7em;
         margin-left: 15%;
         margin-right: 15%;
-
     }
+     
+blockquote{
+    clear:both;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 50%;
+    padding: 3% 2%;
+    border: 4px double black;
+    border-radius:2px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5em;
+    color: black;
+    letter-spacing: .02em;
+    line-height: 1.4em; 
+    /*Box Shadow - (Optional)*/
+    box-shadow: 4px 4px 25px #ccc;
+    box-shadow: 4px 4px 25px #ccc;
+    box-shadow: 4px 4px 25px #ccc;
+}
+
 
     img{
         width: 100%;
