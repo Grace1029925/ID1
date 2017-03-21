@@ -236,9 +236,9 @@ footer a:hover {
     
 section#aboutbutton a{
     position: absolute;
-    right: 17%;
+    right: 19%;
     bottom: 4%;
-    width: 6%;
+    width: 10%;
     background-color: purple;
     color: white;
     padding: 11px 15px;
