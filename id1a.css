@@ -204,22 +204,33 @@ footer a:hover {
     header{
         position: relative;
     }
-
+    
 p{
-        font-size: 1.3em;
-    }
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'PT Serif', serif;
+    font-size: 1.1em;
+}
 
 #path{
-        font-size: 1.5em;
+        width: 100%;
+        font-size: 1.2em;
         margin-left: 15%;
         margin-right: 15%;
     }
+    
+#aboutp{
+    width: 100%;
+    font-size: 1.1em;
+    font-family: 'PT Serif', serif;
+}
 
 blockquote{
         clear:both;
-        width: 100%;
-        margin-left: 0%;
-        margin-right: 0%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
         padding: 3% 2%;
         border: 4px double black;
         border-radius:2px;
@@ -251,31 +262,48 @@ section#btable{
     }
 section#aboutbutton a{
         position: absolute;
-        right: 10%;
+        right: 5%;
         bottom: 4%;
-        width: 21%;
+        width: 14%;
         background-color: purple;
         color: white;
-        padding: 10px 9px;
+        padding: 5px 9px;
         border-radius: 10px;
-        font-size: .7em;
+        font-size: .8em;
         text-align: center;
         text-decoration: none;
     }
 
 section#aboutbutton a:nth-child(2) {
         position: absolute;
-        right: 35%;
+        right: 23.5%;
     }
 
+section#header{
+    width: 60%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-top: 2%;
+    margin-left: 3%;
+    margin-right: 37%;
+    font-size: .9em;
+}
 img{
         width: 100%;
     }
+    
+img#head{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    border-radius: 10px;
+}
 
 img#gif{
-        width: 100%;
-        margin-right: 5%;
-        margin-left: 5%;
+        width: 85%;
+        margin-right: 0%;
+        margin-left: 15%;
         border-radius: 10px;
     }
 
