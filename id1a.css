@@ -225,6 +225,11 @@ p{
     font-size: 1.1em;
     font-family: 'PT Serif', serif;
 }
+    
+#coming{
+    width: 100%;
+    font-size: 1.9em;
+}
 
 blockquote{
         clear:both;
@@ -306,6 +311,19 @@ img#gif{
         margin-left: 15%;
         border-radius: 10px;
     }
+    
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 60%;
+    border-top: 16px solid #3498db;
+    width: 200px;
+    height: 200px;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-bottom: 25%;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
 
 footer h4 {
         float: left;
