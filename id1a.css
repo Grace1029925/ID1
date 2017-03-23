@@ -28,7 +28,7 @@ blockquote{
     clear:both;
     width: 30%;
     margin-left: 35%;
-    margin-right: 50%;
+    margin-right: 35%;
     padding: 3% 2%;
     border: 4px double black;
     border-radius:2px;
@@ -133,20 +133,21 @@ a, a:visited {
 
 section#aboutbutton a{
     position: absolute;
-    right: 17%;
+    right: 10%;
     bottom: 4%;
-    width: 5%;
+    width: 9%;
     background-color: purple;
     color: white;
-    padding: 10px 15px;
+    padding: 9px 3px;
     border-radius: 10px;
+    font-size: 1em;
     text-align: center;
     text-decoration: none;
 }
 
 section#aboutbutton a:nth-child(2) {
     position: absolute;
-    right: 10%;
+    right: 19.5%;
 }
 
 .loader {
@@ -196,7 +197,7 @@ footer a:hover {
 
 @media only screen and (max-width:500px) {
     body{
-        width: 80%;
+        width: 90%;
         padding: 2% 2%;
     }
 
@@ -204,21 +205,21 @@ footer a:hover {
         position: relative;
     }
 
-    p{
+p{
         font-size: 1.3em;
     }
 
-    #path{
+#path{
         font-size: 1.5em;
         margin-left: 15%;
         margin-right: 15%;
     }
 
-    blockquote{
+blockquote{
         clear:both;
-        width: 30%;
-        margin-left: 35%;
-        margin-right: 50%;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
         padding: 3% 2%;
         border: 4px double black;
         border-radius:2px;
@@ -233,41 +234,56 @@ footer a:hover {
         box-shadow: 4px 4px 25px #ccc;
         box-shadow: 4px 4px 25px #ccc;
     }
-    
+
+
+section#atable{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        float: left;
+    }
+
+section#btable{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        display: inline-table;
+    }
 section#aboutbutton a{
-    position: absolute;
-    right: 19%;
-    bottom: 4%;
-    width: 10%;
-    background-color: purple;
-    color: white;
-    padding: 11px 15px;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration: none;
-}
+        position: absolute;
+        right: 10%;
+        bottom: 4%;
+        width: 21%;
+        background-color: purple;
+        color: white;
+        padding: 10px 9px;
+        border-radius: 10px;
+        font-size: .7em;
+        text-align: center;
+        text-decoration: none;
+    }
 
 section#aboutbutton a:nth-child(2) {
-    position: absolute;
-    right: 10%;
-}
+        position: absolute;
+        right: 35%;
+    }
 
-    img{
+img{
         width: 100%;
     }
 
-    img#gif{
+img#gif{
         width: 100%;
         margin-right: 5%;
         margin-left: 5%;
         border-radius: 10px;
     }
 
-    footer h4 {
+footer h4 {
         float: left;
     }
 
-    footer p {
+footer p {
         float:right;
     }
 
