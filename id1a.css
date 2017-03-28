@@ -195,7 +195,7 @@ footer a:hover {
 
 /* MOBILE LAYOUT */
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:800px) {
     body{
         width: 90%;
         padding: 2% 2%;
@@ -269,7 +269,7 @@ section#aboutbutton a{
         position: absolute;
         right: 5%;
         bottom: 4%;
-        width: 14%;
+        width: 16%;
         background-color: purple;
         color: white;
         padding: 5px 9px;
@@ -281,7 +281,7 @@ section#aboutbutton a{
 
 section#aboutbutton a:nth-child(2) {
         position: absolute;
-        right: 23.5%;
+        right: 25%;
     }
 
 section#header{
