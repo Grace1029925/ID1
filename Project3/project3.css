@@ -15,10 +15,21 @@ p{
     margin-right: 10%;
     margin-left: 60%;
     font-size: 1.3em;
-    color: whitesmoke;
-    
+    color: whitesmoke;    
 }
+
 #human{
+    margin-top: .5%;
+    padding-top: 3%;
+    padding-left: 10%;
+    margin-right: 5%;
+    margin-left: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #af251a;
+}
+
+#trafficker{
     margin-top: .5%;
     padding-top: 3%;
     padding-left: 10%;
@@ -31,14 +42,24 @@ p{
 section{
     width: 100%;
     height: 100vh;
+    margin-top: .3%;
 }
 
 #traf{
     background-image: url(images/optimized/hand-covering-girl-face.jpg)
 }
 
+#back{
+ width:20%;
+height: 10;
+}
+
 #barcode{
-    background-image:url(images/optimized/bar-scan-back.jpg);
+    background-image:url(images/optimized/bar-scan-back.jpg)
+}
+
+#tag{
+    background-image: url(images/optimized/rope.jpg);
 }
 
 #relative{
