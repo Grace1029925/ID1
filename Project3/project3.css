@@ -1,11 +1,88 @@
+body{
+    width:100%;
+}
+header{
+    margin-top: 0%;
+}
+#title{
+    font-size: 1.7em;
+    color: #af251a;
+    
+}
+
+p{
+    padding-left: 10%;
+    margin-right: 10%;
+    margin-left: 60%;
+    font-size: 1.3em;
+    color: whitesmoke;
+    
+}
+#human{
+    margin-top: .5%;
+    padding-top: 3%;
+    padding-left: 10%;
+    margin-right: 5%;
+    margin-left: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #af251a;
+}
 section{
     width: 100%;
     height: 100vh;
 }
+
 #traf{
-    background-image: url(images/1.jpg);
+    background-image: url(images/optimized/hand-covering-girl-face.jpg)
 }
-#human{
-    background-image: url(images/10.jpg);
-    
+
+#barcode{
+    background-image:url(images/optimized/bar-scan-back.jpg);
 }
+
+#relative{
+    position: relative;
+    font-size: 1.5em;
+    color: white;
+    right: 7x%;
+    left: 93%;
+}
+
+#reltve p {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#relative p:nth-child(2){
+    position: absolute;
+    top: 5%;
+}
+
+#relative p:nth-child(3){
+    position: absolute;
+    top: 15%;
+}
+
+#relative h1{
+    width: 6%;
+    background-color: black;
+    color: white;
+    padding: 9px 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#end{
+    margin-top: .5%;
+    padding: 5%;
+    background-color: #af251a;
+    color: whitesmoke;
+    text-align: center;
+}
+/* link styling */
+a, a:visited {
+    color: ghostwhite;
+    font-weight:600;
+    text-decoration: none;
