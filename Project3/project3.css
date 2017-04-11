@@ -5,16 +5,30 @@ header{
     margin-top: 0%;
 }
 #title{
-    font-size: 1.7em;
-    color: #af251a;
-    
+    position: absolute;
+    left: 40%;
+    font-size: 3em;
+    color: #af251a;   
+}
+
+.head{
+    position: relative;
+    margin-top: 0%;
+    margin-right: 1000px;
+    font-size: 3em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1.5px 1.5px black;
+    text-align: center;
 }
 
 p{
+    position: relative;
     padding-left: 10%;
     margin-right: 10%;
     margin-left: 60%;
-    font-size: 1.3em;
+    font-size: 1.4em;
+    letter-spacing: 3%;
     color: whitesmoke;    
 }
 
@@ -25,7 +39,7 @@ p{
     margin-right: 5%;
     margin-left: 60%;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #af251a;
 }
 
@@ -36,64 +50,89 @@ p{
     margin-right: 5%;
     margin-left: 60%;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #af251a;
+}
+
+#sex{
+    position: relative;
+    top: 60%;
+    left: 70%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em;
+    color: #af251a; 
+}
+
+#special{
+    position: relative;
+    padding-left: 10%;
+    top: 60%;
+    left: 0%;
+    font-size: 1.4em;
+    letter-spacing: 3%;
+    color: whitesmoke;
 }
 section{
     width: 100%;
     height: 100vh;
-    margin-top: .3%;
+    margin-top: .1%;
 }
 
 #traf{
+    position: relative;
+    background-size: cover;
     background-image: url(images/optimized/hand-covering-girl-face.jpg)
 }
-
-#back{
- width:20%;
-height: 10;
+#abe{
+    background-size: cover;
+    background-image: url(images/optimized/abe.jpg);
 }
-
 #barcode{
-    background-image:url(images/optimized/bar-scan-back.jpg)
+    height: 105vh;
+    background-size: cover;
+    background-image:url(images/optimized/bar-scan-back.jpg);
 }
 
 #tag{
+    background-size: cover;
     background-image: url(images/optimized/rope.jpg);
 }
 
-#relative{
-    position: relative;
+#jar{
+    background-size: cover;
+    background-image: url(images/optimized/jar.jpg);
+}
+
+#leg{
+    background-size: cover;
+    background-image: url(images/optimized/leg.jpg);
+}
+nav{
+    width: 100%;
+    position: absolute;
     font-size: 1.5em;
     color: white;
-    right: 7x%;
-    left: 93%;
 }
 
-#reltve p {
+nav p {
     position: absolute;
-    top: 0%;
-    left: 0%;
-}
-
-#relative p:nth-child(2){
-    position: absolute;
-    top: 5%;
-}
-
-#relative p:nth-child(3){
-    position: absolute;
-    top: 15%;
-}
-
-#relative h1{
-    width: 6%;
+    width: 30%;
+    right: 0%;
+    display: inline-table;
+    float: left;
     background-color: black;
     color: white;
-    padding: 9px 2px;
-    border-radius: 10px;
     text-align: center;
 }
+
+nav p:nth-child(2){
+    float: left;
+}
+
+nav p:nth-child(3){
+}
+
 
 #end{
     margin-top: .5%;
@@ -107,3 +146,7 @@ a, a:visited {
     color: ghostwhite;
     font-weight:600;
     text-decoration: none;
+}
+a:hover {
+    color: black;  
+}
