@@ -1,13 +1,16 @@
 body{
     width:100%;
+    margin: 0;
+    padding: 0;
 }
 header{
     margin-top: 0%;
 }
 #title{
     position: absolute;
-    left: 40%;
-    font-size: 3em;
+    top: 17%;
+    font-size: 20em;
+    text-align: center;
     color: #af251a;   
 }
 
@@ -19,7 +22,7 @@ header{
     color: white;
     font-family: 'Roboto', sans-serif;
     text-shadow: 1.5px 1.5px black;
-    text-align: center;
+    text-align: left;
 }
 
 p{
@@ -80,59 +83,97 @@ section{
 }
 
 #traf{
+    height: 120vh;
+    padding-top:5%;
     position: relative;
     background-size: cover;
     background-image: url(images/optimized/hand-covering-girl-face.jpg)
 }
+
+#map{
+    width: 100%;
+    height: 100vh;
+}
 #abe{
+    height: 120vh;
+    padding-top:5%;
     background-size: cover;
     background-image: url(images/optimized/abe.jpg);
 }
 #barcode{
-    height: 105vh;
+    height: 120vh;
     background-size: cover;
     background-image:url(images/optimized/bar-scan-back.jpg);
 }
 
 #tag{
+    height: 120vh;
     background-size: cover;
     background-image: url(images/optimized/rope.jpg);
 }
 
-#jar{
+#down{
+    height: 120vh;
     background-size: cover;
-    background-image: url(images/optimized/jar.jpg);
+    background-image: url(images/optimized/head-down.jpg);
 }
 
 #leg{
+    height: 120vh;
     background-size: cover;
     background-image: url(images/optimized/leg.jpg);
 }
-nav{
-    width: 100%;
-    position: absolute;
-    font-size: 1.5em;
-    color: white;
+
+#hand{
+    height: 120vh;
+    padding-top:5%;
+    background-size: cover;
+    background-image: url(images/optimized/hands.jpg);
 }
 
-nav p {
-    position: absolute;
-    width: 30%;
-    right: 0%;
-    display: inline-table;
-    float: left;
+#workers{
+    height: 120vh;
+    padding-top:5%;
+    background-size: cover;
+    background-image: url(images/optimized/workers.jpg);
+}
+
+/* navigation */
+
+nav{
+    z-index: 1;
+    position: fixed;
+    width:100%;
     background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 1.5em;
     color: white;
     text-align: center;
 }
 
-nav p:nth-child(2){
-    float: left;
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
-nav p:nth-child(3){
+nav li {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: inline;
 }
 
+footer{
+    padding-right: 39%;
+    padding-left: 39%;
+}
+footer img{
+    width: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline;
+}
 
 #end{
     margin-top: .5%;
