@@ -69,6 +69,15 @@ p{
     color: #af251a; 
 }
 
+#girls{
+    position: relative;
+    top: 20%;
+    left: 89%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em;
+    color: #af251a;
+}
 #special{
     position: relative;
     padding-left: 10%;
@@ -77,6 +86,17 @@ p{
     font-size: 1.4em;
     letter-spacing: 3%;
     color: whitesmoke;
+}
+
+#victums{
+    position: relative;
+    padding-left: 10%;
+    top: 20%;
+    left: 10%;
+    font-size: 1.4em;
+    letter-spacing: 3%;
+    color: whitesmoke;
+    
 }
 
 section{
@@ -100,7 +120,7 @@ section{
 
 #abe{
     height: 120vh;
-    paddisng-top:5%;
+    padding-top:5%;
     background-size: cover;
     background-image: url(images/optimized/abe.jpg);
 }
@@ -123,12 +143,29 @@ section{
     background-image: url(images/optimized/girl.jpg);
 }
 
-#leg{
+#thighs{
     height: 120vh;
     background-size: cover;
-    background-image: url(images/optimized/leg.jpg);
+    background-image: url(images/optimized/thighs.jpg);
 }
 
+#grid{
+    height: 120vh;
+    background-size: cover;
+    background-image: url(images/optimized/photo-gird.png);
+}
+
+#hurt{
+    height: 120vh;
+    background-size: cover;
+    background-image: url(images/optimized/hurt.jpg);
+}
+
+#little{
+    height: 120vh;
+    background-size: cover;
+    background-image: url(images/optimized/little-girl.jpg);
+}
 #hand{
     height: 120vh;
     padding-top:5%;
@@ -141,6 +178,27 @@ section{
     padding-top:5%;
     background-size: cover;
     background-image: url(images/optimized/workers.jpg);
+}
+
+#picking{
+    height: 120vh;
+    padding-top:5%;
+    background-size: cover;
+    background-image: url(images/optimized/picking.jpg);
+}
+
+#cotton{
+    height: 120vh;
+    padding-top:5%;
+    background-size: cover;
+    background-image: url(images/optimized/picking-cotton.jpg);
+}
+
+#forced{
+    height: 120vh;
+    padding-top:5%;
+    background-size: cover;
+    background-image: url(images/optimized/forced.jpg);
 }
 
 #fence{
@@ -168,6 +226,36 @@ section{
     background-image: url(images/optimized/sewing-child.jpg);
 }
 
+#bullet{
+    height: 120vh;
+    padding-top:5%;
+    background-size: cover;
+    background-image: url(images/optimized/bullet.jpg);
+}
+
+#boy{
+    height: 120vh;
+    background-size: cover;
+    background-image: url(images/optimized/boywithgun.jpg);
+}
+
+#smoking{
+    height: 120vh;
+    background-size: cover;
+    background-image: url(images/optimized/smoking.jpg);
+}
+
+#group{
+    height: 120vh;
+    background-size: cover;
+    background-image: url(images/optimized/boys.jpg);
+}
+
+#rifle{
+    height: 120vh;
+    background-size: cover;
+    background-image: url(images/optimized/rifle.jpg);
+}
 /* navigation */
 
 nav{
@@ -222,5 +310,5 @@ a, a:visited {
 }
 
 a:hover {
-    color: black;  
+    color: #af251a;  
 }
