@@ -3,9 +3,11 @@ body{
     margin: 0;
     padding: 0;
 }
+
 header{
     margin-top: 0%;
 }
+
 #title{
     position: absolute;
     top: 17%;
@@ -76,6 +78,7 @@ p{
     letter-spacing: 3%;
     color: whitesmoke;
 }
+
 section{
     width: 100%;
     height: 100vh;
@@ -94,9 +97,10 @@ section{
     width: 100%;
     height: 100vh;
 }
+
 #abe{
     height: 120vh;
-    padding-top:5%;
+    paddisng-top:5%;
     background-size: cover;
     background-image: url(images/optimized/abe.jpg);
 }
@@ -112,10 +116,11 @@ section{
     background-image: url(images/optimized/rope.jpg);
 }
 
-#down{
+#girl{
     height: 120vh;
+    padding-top:5%;
     background-size: cover;
-    background-image: url(images/optimized/head-down.jpg);
+    background-image: url(images/optimized/girl.jpg);
 }
 
 #leg{
@@ -136,6 +141,31 @@ section{
     padding-top:5%;
     background-size: cover;
     background-image: url(images/optimized/workers.jpg);
+}
+
+#fence{
+    height: 120vh;
+    padding-top:5%;
+    background-size: cover;
+    background-image: url(images/optimized/child-behind-fence.jpg);
+}
+
+#digging{
+    height: 120vh;
+    background-size: cover;
+    background-image: url(images/optimized/digging-child.jpg);
+}
+
+#bottle{
+    height: 120vh;
+    background-size: cover;
+    background-image: url(images/optimized/bottle-boy.jpg);
+}
+
+#sewing{
+    height: 120vh;
+    background-size: cover;
+    background-image: url(images/optimized/sewing-child.jpg);
 }
 
 /* navigation */
@@ -168,6 +198,7 @@ footer{
     padding-right: 39%;
     padding-left: 39%;
 }
+
 footer img{
     width: 70px;
     padding-left: 5%;
@@ -183,11 +214,13 @@ footer img{
     text-align: center;
 }
 /* link styling */
+
 a, a:visited {
     color: ghostwhite;
     font-weight:600;
     text-decoration: none;
 }
+
 a:hover {
     color: black;  
 }
