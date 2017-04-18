@@ -10,16 +10,25 @@ header{
 
 #title{
     position: absolute;
-    top: 17%;
+    top: 18%;
     font-size: 20em;
     text-align: center;
     color: #af251a;   
 }
 
+.top{
+    position: relative;
+    margin-bottom: 0%;
+    margin-left: 230px;
+    font-size: 1.7em;
+    color: #af251a;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1.5px 1.5px black
+}
 .head{
     position: relative;
     margin-top: 0%;
-    margin-right: 1000px;
+    margin-left: 100px;
     font-size: 2.5em;
     color: #af251a;
     font-family: 'Roboto', sans-serif;
@@ -28,238 +37,213 @@ header{
 }
 
 p{
-    position: relative;
-    padding-left: 10%;
-    margin-right: 10%;
-    margin-left: 60%;
     font-size: 1.4em;
     letter-spacing: 3%;
     color: whitesmoke;    
 }
 
 #human{
-    margin-top: .5%;
-    padding-top: 3%;
-    padding-left: 10%;
-    margin-right: 5%;
-    margin-left: 60%;
+    position: absolute;
+    top: 10%;
+    margin-right: 3%;
+    margin-left: 65%;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.7em;
+    font-size: 3em;
     color: #af251a;
 }
 
+#humantraf{
+    position: absolute;
+    top: 15%;
+    margin-right: 10%;
+    margin-left: 65%;
+    font-size: 1.9em;
+    letter-spacing: 3%;
+    color: whitesmoke; 
+}
 #trafficker{
-    margin-top: .5%;
-    padding-top: 3%;
-    padding-left: 10%;
-    margin-right: 5%;
-    margin-left: 60%;
+    position: absolute;
+    top: 10%;
+    margin-right: 3%;
+    margin-left: 65%;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.7em;
+    font-size: 3em;
     color: #af251a;
+}
+
+#prey{
+    position: absolute;
+    top: 15%;
+    margin-right: 10%;
+    margin-left: 65%;
+    font-size: 1.9em;
+    letter-spacing: 3%;
+    color: whitesmoke; 
 }
 
 #sex{
-    position: relative;
-    top: 60%;
-    left: 70%;
-    padding: 0%;
+    position: absolute;
+    top: 5%;
+    margin-left: 65%;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.7em;
+    font-size: 3em;
     color: #af251a; 
 }
 
-#girls{
-    position: relative;
-    top: 20%;
-    left: 89%;
-    padding: 0%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.7em;
-    color: #af251a;
-}
 #special{
-    position: relative;
-    padding-left: 10%;
-    top: 60%;
+    position: absolute;
+    top: 12%;
     left: 0%;
-    font-size: 1.4em;
+    margin-left: 65%;
+    margin-right: 8%;
+    font-size: 1.9em;
     letter-spacing: 3%;
     color: whitesmoke;
 }
 
+#girls{
+    position: absolute;
+    top: 4%;
+    margin-left: 75%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a;
+}
+
+
 #victums{
-    position: relative;
-    padding-left: 10%;
-    top: 20%;
-    left: 10%;
-    font-size: 1.4em;
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    margin-left: 75%;
+    margin-right: 5%;
+    font-size: 1.7em;
     letter-spacing: 3%;
     color: whitesmoke;
     
 }
 
 section{
+    position: relative;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
+    background-size: cover;
     margin-top: .1%;
 }
 
 #traf{
-    height: 120vh;
     padding-top:5%;
     position: relative;
-    background-size: cover;
     background-image: url(images/optimized/hand-covering-girl-face.jpg)
 }
 
+#mapsec{
+    width: 100%;
+    height: 100vh;
+}
 #map{
     width: 100%;
     height: 100vh;
 }
 
 #abe{
-    height: 120vh;
     padding-top:5%;
-    background-size: cover;
     background-image: url(images/optimized/abe.jpg);
 }
+
 #barcode{
-    height: 120vh;
-    background-size: cover;
     background-image:url(images/optimized/bar-scan-back.jpg);
 }
 
 #tag{
-    height: 120vh;
-    background-size: cover;
     background-image: url(images/optimized/rope.jpg);
 }
 
 #girl{
-    height: 120vh;
-    padding-top:5%;
-    background-size: cover;
+    padding-top: 5%;
     background-image: url(images/optimized/girl.jpg);
 }
 
 #thighs{
-    height: 120vh;
-    background-size: cover;
     background-image: url(images/optimized/thighs.jpg);
 }
 
 #grid{
-    height: 120vh;
     background-size: cover;
     background-image: url(images/optimized/photo-gird.png);
 }
 
 #hurt{
-    height: 120vh;
-    background-size: cover;
     background-image: url(images/optimized/hurt.jpg);
 }
 
 #little{
-    height: 120vh;
-    background-size: cover;
     background-image: url(images/optimized/little-girl.jpg);
 }
 #hand{
-    height: 120vh;
     padding-top:5%;
-    background-size: cover;
     background-image: url(images/optimized/hands.jpg);
 }
 
 #workers{
-    height: 120vh;
     padding-top:5%;
-    background-size: cover;
     background-image: url(images/optimized/workers.jpg);
 }
 
 #picking{
-    height: 120vh;
     padding-top:5%;
-    background-size: cover;
     background-image: url(images/optimized/picking.jpg);
 }
 
 #cotton{
-    height: 120vh;
     padding-top:5%;
-    background-size: cover;
     background-image: url(images/optimized/picking-cotton.jpg);
 }
 
 #forced{
-    height: 120vh;
     padding-top:5%;
-    background-size: cover;
     background-image: url(images/optimized/forced.jpg);
 }
 
 #fence{
-    height: 120vh;
     padding-top:5%;
-    background-size: cover;
     background-image: url(images/optimized/child-behind-fence.jpg);
 }
 
 #cutting{
-    height: 120vh;
-    background-size: cover;
     background-image: url(images/optimized/cutting.jpg);
 }
 
 #digging{
-    height: 120vh;
-    background-size: cover;
     background-image: url(images/optimized/digging-child.jpg);
 }
 
 #bottle{
-    height: 120vh;
-    background-size: cover;
     background-image: url(images/optimized/bottle-boy.jpg);
 }
 
 #sewing{
-    height: 120vh;
-    background-size: cover;
     background-image: url(images/optimized/sewing-child.jpg);
 }
 
 #bullet{
-    height: 120vh;
     padding-top:5%;
-    background-size: cover;
     background-image: url(images/optimized/bullet.jpg);
 }
 
 #boy{
-    height: 120vh;
-    background-size: cover;
     background-image: url(images/optimized/boywithgun.jpg);
 }
 
 #smoking{
-    height: 120vh;
-    background-size: cover;
     background-image: url(images/optimized/smoking.jpg);
 }
 
 #group{
-    height: 120vh;
-    background-size: cover;
     background-image: url(images/optimized/boys.jpg);
 }
 
 #rifle{
-    height: 120vh;
-    background-size: cover;
     background-image: url(images/optimized/rifle.jpg);
 }
 /* navigation */
@@ -271,7 +255,7 @@ nav{
     background-color: black;
     padding-top: 25px;
     padding-bottom: 25px;
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: white;
     text-align: center;
 }
@@ -318,3 +302,165 @@ a, a:visited {
 a:hover {
     color: #af251a;  
 }
+
+/* laptop */
+
+@media only screen and (max-width:1225px) {
+    
+section{
+    height: 50vh;
+    margin-top: .2%;
+        
+    }
+    
+#title{
+    position: absolute;
+    top: 17%;
+    font-size: 10em;
+    text-align: center;
+    color: #af251a;   
+}
+}
+
+@media only screen and (max-width: 700px) {
+ 
+section{
+    height: 39vh;
+        
+    } 
+    
+#title{
+    position: absolute;
+    top: 17%;
+    font-size: 5em;
+    text-align: center;
+    color: #af251a;
+}
+  
+#traf{
+    padding-top: 5%;
+    position: relative;
+    background-image: url(images/optimized/hand-covering-girl-face.jpg)
+}
+.top{
+    position: absolute;
+    top: 14%;
+    margin-right: 10px;
+    margin-left: 6px;
+    font-size: .9em;
+    color: #af251a;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px black
+}
+.head{
+    position: absolute;
+    top: 20%;
+    margin-right: 10px;
+    margin-left: 6px;
+    font-size: 1.1em;
+    color: #af251a;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px black;
+}
+#abe{
+    padding-top: 20%;
+    background-image: url(images/optimized/abe.jpg);
+}
+
+#human{
+    position: absolute;
+    top: 10%;
+    margin-right: 3%;
+    margin-left: 65%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #af251a;
+}
+   
+#humantraf{
+    position: absolute;
+    top: 20%;
+    margin-right: 4%;
+    margin-left: 65%;
+    font-size: .7em;
+    letter-spacing: 3%;
+    color: whitesmoke;
+    }
+    
+#trafficker{
+    position: absolute;
+    top: 10%;
+    margin-right: 3%;
+    margin-left: 65%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #af251a;
+}
+    
+#prey{
+    position: absolute;
+    top: 20%;
+    margin-right: 4%;
+    margin-left: 65%;
+    font-size: .7em;
+    letter-spacing: 3%;
+    color: whitesmoke;
+    }
+    
+#mapsec{
+    width: 100%;
+    height: 30vh;
+}
+#map{
+    width: 100%;
+    height: 30vh;
+}
+    
+/* navigation */
+
+nav{
+    z-index: 1;
+    position: fixed;
+    width:100%;
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline;
+}
+  
+#end{
+    margin-top: .5%;
+    padding: 5%;
+    background-color: #af251a;
+    font-size: 1.2em;
+    color: whitesmoke;
+    text-align: center;
+} 
+    
+footer{
+    padding-right: 39%;
+    padding-left: 39%;
+}
+
+footer img{
+    width: 22px;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: inline;
+}  
+}
+
