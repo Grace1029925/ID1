@@ -8,19 +8,11 @@ header{
     margin-top: 0%;
 }
 
-#title{
-    position: absolute;
-    top: 18%;
-    font-size: 20em;
-    text-align: center;
-    color: #af251a;   
-}
-
 .head{
     position: relative;
-    margin-top: 0%;
-    margin-left: 100px;
-    font-size: 3.5em;
+    margin-top: 1%;
+    margin-left: 80px;
+    font-size: 3.8em;
     color: #af251a;
     font-family: 'Roboto', sans-serif;
     text-shadow: 1.5px 1.5px black;
@@ -102,11 +94,14 @@ section{
 }
 
 #traf{
-    padding-top:5%;
-    position: relative;
-    background-image: url(images/optimized/hand-covering-girl-face.jpg)
+    width:100%;
+    height: 100vh;
 }
 
+#face{
+    width:100%;
+    height: 100vh;
+}
 #mapsec{
     width: 100%;
     height: 100vh;
@@ -373,7 +368,7 @@ section{
     background-image: url(images/optimized/cutting.jpg);
 }
 
-#boy{
+#boys{
     position: absolute;
     top: 0%;
     margin-left: 66%;
@@ -393,9 +388,18 @@ section{
     color: whitesmoke; 
 }
 
+#shot{
+    background-image: url(images/optimized/shot1.jpg);
+}
 
-#digging{
-    background-image: url(images/optimized/digging-child.jpg);
+#more{
+    width: 100%;
+    height: 100vh;
+}
+
+#shots{
+    width: 100%;
+    height: 100vh;
 }
 
 #bottle{
@@ -422,8 +426,34 @@ section{
     color: whitesmoke; 
 }
 
-#sewing{
-    background-image: url(images/optimized/sewing-child.jpg);
+#bag{
+    width: 100%;
+    height: 100vh;
+}
+
+#die{
+    width: 100%;
+    height: 100vh;
+}
+
+#death{
+    position: absolute;
+    top: 0%;
+    margin-left: 69%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a; 
+}
+
+#hazard{
+    position: absolute;
+    top: 7%;
+    right: 0%;
+    margin-left: 69%;
+    margin-right: 8%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke;   
 }
 
 #bullet{
@@ -431,20 +461,137 @@ section{
     background-image: url(images/optimized/bullet.jpg);
 }
 
-#boy{
-    background-image: url(images/optimized/boywithgun.jpg);
+#dress{
+    background-image: url(images/optimized/little%20girl.jpg);
 }
 
-#smoking{
-    background-image: url(images/optimized/smoking.jpg);
+#red{
+    position: absolute;
+    top: 0%;
+    margin-left: 69%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a; 
 }
 
-#group{
-    background-image: url(images/optimized/boys.jpg);
+#hell{
+    position: absolute;
+    top: 7%;
+    right: 0%;
+    margin-left: 69%;
+    margin-right: 5%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: #717577; 
 }
 
+#soldmap{
+    width: 100%;
+    height: 100vh;
+}
+
+#stat{
+    width: 100%;
+    height: 100vh;
+}
+
+#armor{
+    background-image: url(images/optimized/armor.jpg);
+}
+
+#who{
+    position: absolute;
+    top: 0%;
+    margin-left: 69%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a; 
+}
+
+#whose{
+    position: absolute;
+    top: 7%;
+    right: 0%;
+    margin-left: 69%;
+    margin-right: 5%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke;
+}
 #rifle{
     background-image: url(images/optimized/rifle.jpg);
+}
+
+#gun{
+    position: absolute;
+    top: 0%;
+    margin-left: 69%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a;  
+}
+
+#tech{
+    position: absolute;
+    top: 7%;
+    right: 0%;
+    margin-left: 69%;
+    margin-right: 3%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke;
+}
+
+#baby{
+    background-image: url(images/optimized/baby.jpg);
+}
+
+#pure{
+    position: absolute;
+    top: 0%;
+    margin-left: 69%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a;
+}
+
+#stop{
+    position: absolute;
+    top: 7%;
+    right: 0%;
+    margin-left: 69%;
+    margin-right: 5%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke;
+}
+
+#computer{
+    padding-top: 5%;
+    background-image: url(images/optimized/computer.jpg);
+}
+
+#dark{
+    background-image: url(images/optimized/dark-room.jpg);
+}
+
+#warning{
+    position: absolute;
+    top: 0%;
+    margin-left: 69%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a;
+}
+
+#help{
+    background-image: url(images/optimized/help.jpg);
+}
+
+#video{
+    padding-left: 15%;
+    padding-right: 20%;
+    background-color: black;
 }
 /* navigation */
 
@@ -474,23 +621,34 @@ nav li {
 }
 
 footer{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+footer img{
+    width: 90px;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: inline;
+}
+
+#call{
     padding-right: 39%;
     padding-left: 39%;
 }
 
-footer img{
+#tac{
     width: 70px;
     padding-left: 5%;
     padding-right: 5%;
     display: inline;
 }
-
 #end{
     margin-top: .5%;
     padding: 5%;
     background-color: #af251a;
     font-family: 'Work Sans', sans-serif;
-    font-size: 1.4em;
+    font-size: 2em;
     color: whitesmoke;
     text-align: center;
 }
