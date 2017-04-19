@@ -16,15 +16,6 @@ header{
     color: #af251a;   
 }
 
-.top{
-    position: relative;
-    margin-bottom: 0%;
-    margin-left: 230px;
-    font-size: 1.7em;
-    color: #af251a;
-    font-family: 'Roboto', sans-serif;
-    text-shadow: 1.5px 1.5px black
-}
 .head{
     position: relative;
     margin-top: 0%;
@@ -101,27 +92,6 @@ p{
     color: whitesmoke;
 }
 
-#girls{
-    position: absolute;
-    top: 4%;
-    margin-left: 75%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3em;
-    color: #af251a;
-}
-
-
-#victums{
-    position: absolute;
-    top: 10%;
-    right: 0%;
-    margin-left: 75%;
-    margin-right: 5%;
-    font-size: 1.7em;
-    letter-spacing: 3%;
-    color: whitesmoke;
-    
-}
 
 section{
     position: relative;
@@ -169,25 +139,132 @@ section{
 }
 
 #grid{
-    background-size: cover;
     background-image: url(images/optimized/photo-gird.png);
 }
 
+#girls{
+    position: absolute;
+    top: 4%;
+    margin-left: 75%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a;
+}
+
+#victums{
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    margin-left: 75%;
+    margin-right: 5%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke;  
+}
+
+#hands{
+     background-image: url(images/optimized/hands-in-rope.jpg);
+}
+
+#how{
+    position: absolute;
+    top: 4%;
+    margin-left: 71%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a; 
+}
+
+#method{
+    position: absolute;
+    top: 12%;
+    right: 0%;
+    margin-left: 72%;
+    margin-right: 3%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke;
+}
+
+#recruit{
+    position: absolute;
+    top: 33%;
+    right: 0%;
+    margin-left: 72%;
+    margin-right: 3%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke;
+}
+
+#prostitution{
+    position: absolute;
+    top: 67%;
+    right: 0%;
+    margin-left: 72%;
+    margin-right: 3%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke;
+}
+
+.first{
+    font-family: 'Roboto', sans-serif;
+    color: #af251a;
+}
 #hurt{
     background-image: url(images/optimized/hurt.jpg);
 }
 
+#control{
+    position: absolute;
+    top: 4%;
+    margin-left: 76%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a;
+}
+#beat{
+    position: absolute;
+    top: 12%;
+    right: 0%;
+    margin-left: 76%;
+    margin-right: 3%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke; 
+}
+
 #little{
     background-image: url(images/optimized/little-girl.jpg);
+}
+
+#countries{
+    position: absolute;
+    top: 4%;
+    margin-left: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a;
+}
+
+#list{
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    margin-left 80%;
+    margin-right: 12%;
+    font-size: 2em;
+    letter-spacing: 3%;
+    color: whitesmoke; 
 }
 #hand{
     padding-top:5%;
     background-image: url(images/optimized/hands.jpg);
 }
 
-#workers{
-    padding-top:5%;
-    background-image: url(images/optimized/workers.jpg);
+#reeds{
+    background-image: url(images/optimized/reeds.jpg);
 }
 
 #picking{
