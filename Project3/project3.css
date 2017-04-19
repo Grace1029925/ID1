@@ -260,6 +260,10 @@ section{
     letter-spacing: 3%;
     color: whitesmoke; 
 }
+
+#commdity{
+    background-image: url(images/optimized/commidty.png);
+}
 #hand{
     padding-top:5%;
     background-image: url(images/optimized/hands.jpg);
@@ -641,7 +645,7 @@ footer{
 }
 
 footer img{
-    width: 90px;
+    width: 70px;
     padding-left: 5%;
     padding-right: 5%;
     display: inline;
@@ -687,11 +691,11 @@ section{
 }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
  
 section{
     height: 39vh;
-        
+    background-size: cover;  
     } 
     
 #title{
@@ -703,20 +707,16 @@ section{
 }
   
 #traf{
-    padding-top: 5%;
     position: relative;
-    background-image: url(images/optimized/hand-covering-girl-face.jpg)
+    height: 29vh;
+    padding-top: 5%;
+    
 }
-.top{
-    position: absolute;
-    top: 14%;
-    margin-right: 10px;
-    margin-left: 6px;
-    font-size: .9em;
-    color: #af251a;
-    font-family: 'Roboto', sans-serif;
-    text-shadow: 1px 1px black
-}
+#face{
+    height: 31vh;
+    width: 50;
+    }
+    
 .head{
     position: absolute;
     top: 20%;
@@ -744,10 +744,10 @@ section{
    
 #humantraf{
     position: absolute;
-    top: 20%;
-    margin-right: 4%;
+    top: 25%;
+    margin-right: 3%;
     margin-left: 65%;
-    font-size: .7em;
+    font-size: .6em;
     letter-spacing: 3%;
     color: whitesmoke;
     }
@@ -790,7 +790,7 @@ nav{
     background-color: black;
     padding-top: 25px;
     padding-bottom: 25px;
-    font-size: 1.2em;
+    font-size: 1em;
     color: white;
     text-align: center;
 }
@@ -817,8 +817,8 @@ nav li {
 } 
     
 footer{
-    padding-right: 39%;
-    padding-left: 39%;
+    padding-right: 29%;
+    padding-left: 29%;
 }
 
 footer img{
