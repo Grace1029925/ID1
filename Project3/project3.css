@@ -20,7 +20,7 @@ header{
     position: relative;
     margin-top: 0%;
     margin-left: 100px;
-    font-size: 2.5em;
+    font-size: 3.5em;
     color: #af251a;
     font-family: 'Roboto', sans-serif;
     text-shadow: 1.5px 1.5px black;
@@ -116,6 +116,10 @@ section{
     height: 100vh;
 }
 
+#exsist{
+    background-image: url(images/optimized/exist.jpg);
+}
+
 #abe{
     padding-top:5%;
     background-image: url(images/optimized/abe.jpg);
@@ -181,7 +185,8 @@ section{
     right: 0%;
     margin-left: 72%;
     margin-right: 3%;
-    font-size: 1.7em;
+     font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
     letter-spacing: 3%;
     color: whitesmoke;
 }
@@ -192,7 +197,8 @@ section{
     right: 0%;
     margin-left: 72%;
     margin-right: 3%;
-    font-size: 1.7em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
     letter-spacing: 3%;
     color: whitesmoke;
 }
@@ -203,7 +209,8 @@ section{
     right: 0%;
     margin-left: 72%;
     margin-right: 3%;
-    font-size: 1.7em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
     letter-spacing: 3%;
     color: whitesmoke;
 }
@@ -263,33 +270,129 @@ section{
     background-image: url(images/optimized/hands.jpg);
 }
 
-#reeds{
-    background-image: url(images/optimized/reeds.jpg);
+#seafood{
+    background-image: url(images/optimized/seafood.jpg);
 }
 
+#labor{
+    position: absolute;
+    top: 0%;
+    margin-left: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a; 
+}
+
+#what{
+    position: absolute;
+    top: 7%;
+    right: 0%;
+    margin-left: 60%;
+    margin-right: 8%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke; 
+}
 #picking{
-    padding-top:5%;
     background-image: url(images/optimized/picking.jpg);
 }
 
+#man{
+    position: absolute;
+    top: 0%;
+    margin-left: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a;  
+}
+
+#field{
+   position: absolute;
+    top: 7%;
+    right: 0%;
+    margin-left: 60%;
+    margin-right: 8%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke;   
+}
+
+#chart{
+    background-image: url(images/optimized/chart.png);
+}
+
+#money{
+    width: 100%;
+    height: 100vh;
+}
+
+#currency{
+    width: 100%;
+    height: 100vh;
+}
 #cotton{
-    padding-top:5%;
     background-image: url(images/optimized/picking-cotton.jpg);
 }
 
-#forced{
-    padding-top:5%;
-    background-image: url(images/optimized/forced.jpg);
+#shrimp{
+    width: 100%;
+    height: 100vh;
 }
 
-#fence{
+#lady{
+    width: 100%;
+    height: 121vh;
+}
+
+#why{
+    position: absolute;
+    top: 0%;
+    margin-left: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a;  
+}
+
+#less{
+    position: absolute;
+    top: 7%;
+    right: 0%;
+    margin-left: 60%;
+    margin-right: 4%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke;   
+}
+
+#boat{
     padding-top:5%;
-    background-image: url(images/optimized/child-behind-fence.jpg);
+    background-image: url(images/optimized/boat.jpg);
 }
 
 #cutting{
     background-image: url(images/optimized/cutting.jpg);
 }
+
+#boy{
+    position: absolute;
+    top: 0%;
+    margin-left: 66%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a;   
+}
+
+#sitting{
+    position: absolute;
+    top: 7%;
+    right: 0%;
+    margin-left: 66%;
+    margin-right: 8%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke; 
+}
+
 
 #digging{
     background-image: url(images/optimized/digging-child.jpg);
@@ -297,6 +400,26 @@ section{
 
 #bottle{
     background-image: url(images/optimized/bottle-boy.jpg);
+}
+
+#cup{
+     position: absolute;
+    top: 0%;
+    margin-left: 66%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #af251a;   
+}
+
+#shirt{
+    position: absolute;
+    top: 7%;
+    right: 0%;
+    margin-left: 66%;
+    margin-right: 8%;
+    font-size: 1.7em;
+    letter-spacing: 3%;
+    color: whitesmoke; 
 }
 
 #sewing{
@@ -332,6 +455,7 @@ nav{
     background-color: black;
     padding-top: 25px;
     padding-bottom: 25px;
+    font-family: 'Work Sans', sans-serif;
     font-size: 1.7em;
     color: white;
     text-align: center;
@@ -365,6 +489,8 @@ footer img{
     margin-top: .5%;
     padding: 5%;
     background-color: #af251a;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.4em;
     color: whitesmoke;
     text-align: center;
 }
