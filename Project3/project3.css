@@ -571,10 +571,6 @@ section{
     background-image: url(images/optimized/computer.jpg);
 }
 
-#dark{
-    background-image: url(images/optimized/dark-room.jpg);
-}
-
 #warning{
     position: absolute;
     top: 0%;
@@ -588,6 +584,25 @@ section{
     background-image: url(images/optimized/help.jpg);
 }
 
+#call{
+    width: 100%;
+    height: 100vh;
+}
+
+#hope{
+    width: 100%;
+    height: 100vh;
+}
+
+#reach{
+    width: 100%;
+    height: 100vh;
+}
+
+#move{
+    width: 100%;
+    height: 100vh;
+}
 #video{
     padding-left: 15%;
     padding-right: 20%;
@@ -621,28 +636,17 @@ nav li {
 }
 
 footer{
-    padding-right: 10%;
-    padding-left: 10%;
-}
-
-footer img{
-    width: 90px;
-    padding-left: 7%;
-    padding-right: 7%;
-    display: inline;
-}
-
-#call{
     padding-right: 39%;
     padding-left: 39%;
 }
 
-#tac{
-    width: 70px;
+footer img{
+    width: 90px;
     padding-left: 5%;
     padding-right: 5%;
     display: inline;
 }
+
 #end{
     margin-top: .5%;
     padding: 5%;
