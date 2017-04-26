@@ -1,0 +1,23 @@
+
+#relative{
+    position: relative;
+    width: 20%;
+    height: 100vh;
+    background-color: bisque;
+}
+
+#realtive p {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#relative p:nth-child(2){
+    position: absolute;
+    top: 10%;
+}
+
+#relative p:nth-child(3){
+    position: absolute;
+    top: 20%;
+}
