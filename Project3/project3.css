@@ -644,6 +644,30 @@ nav li {
     display: inline;
 }
 
+nav ul li ul {
+    display:none;
+    position:absolute;
+    left: 35%;
+    background:#0f0f0d;
+}
+nav ul li ul li {
+    display:block;
+    width:100%;
+    left: 35%;
+    padding:10px;
+}
+nav ul li:hover ul {
+    display: block; 
+}
+#drop{
+    visibility: hidden;
+    
+}
+
+#hover{
+    
+}
+
 footer{
     padding-right: 39%;
     padding-left: 39%;
